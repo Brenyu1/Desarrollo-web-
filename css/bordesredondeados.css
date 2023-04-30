@@ -8,13 +8,13 @@ Explorer hay que decir que todavia no soporta este atributo de CSS 3*/
 en adaptarse el CSS 3, podemos utilizar el atributo border-radius en
 la siguiente manera*/
 #capa3{
-    -webkit-border-radius: 15px
+    border-radius: 15px
     padding 10px;
 }
 /*La propiedad padding es importante para que el texto no se superponga 
 con el borde redondeado definido para el div*/
 #capa4{
-    -webkit-border-radius: 15px 27px 100px 0px;
+    border-radius: 15px 27px 100px 0px;
 }
 /*Asi estariamos definiendo un borde redondeado con radio de 15 pixel
 para la esquina superior
